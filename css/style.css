@@ -1,0 +1,36 @@
+body{
+  margin:0;
+  background:#1a0000;
+  color:white;
+  font-family:Arial;
+}
+
+.header{
+  background:black;
+  text-align:center;
+  padding:15px;
+  font-size:20px;
+}
+
+.header span{
+  color:red;
+  font-weight:bold;
+}
+
+.games{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:15px;
+  padding:15px;
+}
+
+.card{
+  background:#6b0000;
+  height:130px;
+  border-radius:15px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:18px;
+  box-shadow:0 0 10px gold;
+}
